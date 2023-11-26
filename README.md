@@ -35,4 +35,9 @@ Follow the guide at https://tailscale.com/kb/1017/install-rpi/
 
 Use the web UI to add the device to the network.
 
+### JellyFin
+Follow the guide at https://pimylifeup.com/raspberry-pi-jellyfin/
+
+### PiHole
+If there is spare processing power, explore using it for PiHole.
 
