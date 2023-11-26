@@ -17,3 +17,22 @@ for a true headless setup use hidden options of [Raspberry Pi Imager](https://ww
 
 ### SSH
 To enable SSH via the terminal, open a terminal window and enter sudo raspi-config. Now with the arrows select Interfacing Options, navigate to and select SSH, choose Yes, and select Ok.
+
+### Static IP
+follow the guide at https://pimylifeup.com/raspberry-pi-static-ip-address/ 
+
+nano can be replaced by any terminal text editor of choice, I personally prefer vim/nvim.
+
+ip r | grep default\
+sudo nano /etc/resolv.conf
+sudo nano /etc/dhcpcd.conf
+
+Static IP can also be set via the router, I do not prefer this as it is not portable.
+
+### Tailscale
+
+Follow the guide at https://tailscale.com/kb/1017/install-rpi/
+
+Use the web UI to add the device to the network.
+
+
