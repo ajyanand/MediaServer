@@ -45,3 +45,8 @@ If there is spare processing power, explore using it for PiHole.
 To setup the external drive to automount to a fixed mount point, add a new /etc/fstab entry for the external drive using its UUID or PartUUID.\
 
 use the guide at https://confluence.jaytaala.com/display/TKB/Mount+drive+in+linux+and+set+auto-mount+at+boot 
+
+### File Transfer protocol (FTP or SFTP)
+We also set up FTP using '''sudo apt install vsftpd''' and configure it using '''sudo nvim /etc/vsftpd.conf ''' then restart using '''sudo service vsftpd restart'''. follow the guide at https://pimylifeup.com/raspberry-pi-ftp/.
+
+After setting up FTP on the raspi, we can use FileZilla to transfer files to and from the raspi. 
