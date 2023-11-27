@@ -42,4 +42,6 @@ Follow the guide at https://pimylifeup.com/raspberry-pi-jellyfin/
 If there is spare processing power, explore using it for PiHole.
 
 ### Automount drive(s)
-To setup the external drive to automount to a fixed mount point, use the guide at https://confluence.jaytaala.com/display/TKB/Mount+drive+in+linux+and+set+auto-mount+at+boot
+To setup the external drive to automount to a fixed mount point, add a new /etc/fstab entry for the external drive using its UUID or PartUUID.\
+
+use the guide at https://confluence.jaytaala.com/display/TKB/Mount+drive+in+linux+and+set+auto-mount+at+boot 
