@@ -29,6 +29,14 @@ sudo nano /etc/dhcpcd.conf
 
 Static IP can also be set via the router, I do not prefer this as it is not portable.
 
+It is also preferred to have the raspi on a wired connection for better performance.
+
+### Update and Upgrade
+
+After installing each new package it is preferrable to update and upgrade the system using the following commands:
+```sudo apt update```\
+```sudo apt upgrade```
+
 ### Tailscale
 
 Follow the guide at https://tailscale.com/kb/1017/install-rpi/
