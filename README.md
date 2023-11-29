@@ -47,6 +47,8 @@ To setup the external drive to automount to a fixed mount point, add a new /etc/
 use the guide at https://confluence.jaytaala.com/display/TKB/Mount+drive+in+linux+and+set+auto-mount+at+boot 
 
 ### File Transfer protocol (FTP or SFTP)
-We also set up FTP using '''sudo apt install vsftpd''' and configure it using '''sudo nvim /etc/vsftpd.conf ''' then restart using '''sudo service vsftpd restart'''. follow the guide at https://pimylifeup.com/raspberry-pi-ftp/.
+Set up FTP using '''sudo apt install vsftpd''' and configure it using '''sudo nvim /etc/vsftpd.conf ''' then restart using '''sudo service vsftpd restart'''. follow the guide at https://pimylifeup.com/raspberry-pi-ftp/.
 
-After setting up FTP on the raspi, we can use FileZilla to transfer files to and from the raspi. 
+Make sure to set the folder permissions correctly based on what you want the user to have access to through FTP.
+
+After setting up FTP on the raspi, we can use FileZilla to transfer files to and from the raspi using its IP address and the username and password of the user on the raspi.
