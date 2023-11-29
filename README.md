@@ -47,7 +47,7 @@ To setup the external drive to automount to a fixed mount point, add a new /etc/
 use the guide at https://confluence.jaytaala.com/display/TKB/Mount+drive+in+linux+and+set+auto-mount+at+boot 
 
 ### File Transfer protocol (FTP or SFTP)
-Set up FTP using '''sudo apt install vsftpd''' and configure it using '''sudo nvim /etc/vsftpd.conf ''' then restart using '''sudo service vsftpd restart'''. follow the guide at https://pimylifeup.com/raspberry-pi-ftp/.
+Set up FTP using '''sudo apt install vsftpd''' and configure it using '''sudo nvim /etc/vsftpd.conf ''' then restart using '''sudo service vsftpd restart'''. follow the guide at https://phoenixnap.com/kb/raspberry-pi-ftp-server or https://pimylifeup.com/raspberry-pi-ftp/.
 
 Make sure to set the folder permissions correctly based on what you want the user to have access to through FTP.
 
