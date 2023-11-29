@@ -59,4 +59,4 @@ Set up FTP using ```sudo apt install vsftpd``` and configure it using ```sudo nv
 
 Make sure to set the folder permissions correctly based on what you want the user to have access to through FTP.
 
-After setting up FTP on the raspi, we can use FileZilla to transfer files to and from the raspi using its IP address and the username and password of the user on the raspi.
+After setting up FTP on the raspi, we can use FileZilla(https://filezilla-project.org/) to transfer files to and from the raspi using its IP address and the username and password of the user on the raspi.
